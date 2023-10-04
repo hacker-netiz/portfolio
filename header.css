@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: orange;
+    height: 50px;
+    /* text-align: center; */
+    box-sizing: border-box;
+    padding: 14px;
+    color: white;
+}
+.navbar{
+    background-color: rgb(252, 252, 252);
+    height: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 14px;
+    color: white;
+}
+.navbar > a {
+    margin: 20px;
+    padding: 23px;
+    text-decoration: none;
+}
+nav > h3{
+    display: inline;
+    animation-name: move;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes move{
+    from{
+        margin-left: 5px;
+    }
+    to{
+        margin-left: 78vw;
+    }
+}

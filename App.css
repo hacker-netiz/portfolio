@@ -1,0 +1,75 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.container
+{
+  width: 70vw;
+  min-height: 100vh;
+  margin: auto;
+  background-color: blanchedalmond;
+  padding: 4vmax;
+  box-sizing: border-box;
+}
+.container > h1 {
+  text-align: center;
+}
+.container > form {
+  display: flex;
+  flex-direction: column;
+}
+input , textarea , button {
+  padding: 3px;
+  margin: 8px 0px;
+  height: 40px;
+  box-sizing: border-box;
+}
+textarea{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.task{
+  margin-top: 10px;
+  display: flex;
+  background-color: rgb(188, 241, 188);
+  padding-left: 10px;
+  align-items: center;
+  height: 60px;
+  border-radius: 10px;
+}
+.task > div {
+  width: 100%;
+}
+.task > button{
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(247, 93, 93);
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.task > div > span{
+  color: rgb(129, 129, 129);
+}
+.about{
+  background-color: brown;
+  width: 100vw;
+  height: 100vh;
+}
+.contact{
+  background-color: brown;
+  width: 100vw;
+  height: 100vh;
+}
+.user
+{
+  background-color: rgb(46, 165, 42);
+  width: 100vw;
+  height: 100vh;
+
+}
